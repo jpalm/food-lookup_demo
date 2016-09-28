@@ -1,4 +1,4 @@
-##Food Nutrition Look-up
+##Food Lookup Demo
 
 This is a react client app borrowed from this tutorial: https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/
 
