@@ -86,7 +86,7 @@ class SearchFood extends Component {
     );
     return (
       <div id='food-search'>
-        <h3>Food Look-up</h3>
+        <h2>Food Look-up</h2>
         <table className='ui selectable structured large table'>
           <thead>
             <tr>
@@ -114,10 +114,10 @@ class SearchFood extends Component {
             <tr>
               <th className='eight wide'>Description</th>
               <th>Kcal</th>
+              <th>Sugar (g)</th>
+              <th>Carbohydrate (g)</th>
+              <th>Cholesterol (mg)</th>
               <th>Protein (g)</th>
-              <th>Fat (g)</th>
-              <th>Carbs (g)</th>
-              <th>Phosphorus (mg)</th>
               <th>Potassium (mg)</th>              
               <th>Sodium (mg)</th>
             </tr>
@@ -133,8 +133,8 @@ class SearchFood extends Component {
                   <td className='right aligned'>{food.kcal}</td>
                   <td className='right aligned'>{food.sugar_g}</td>
                   <td className='right aligned'>{food.carbohydrate_g}</td>
+                  <td className='right aligned'>{food.cholestrl_mg}</td>
                   <td className='right aligned'>{food.protein_g}</td>
-                  <td className='right aligned'>{food.phosphorus_mg}</td>
                   <td className='right aligned'>{food.potassium_mg}</td>
                   <td className='right aligned'>{food.sodium_mg}</td>
                 </tr>
