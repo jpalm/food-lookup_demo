@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  margin-top: 7em;
+}
+
+#food-search {
+  margin-top: 5em;
+}
+
+.ui.table td.eight.wide, .ui.table th.eight.wide { 
+  width: 225px !important;
+}
+
+.ui.large.table { 
+  font-size: 1em !important; 
+  width: 800px !important;
+}
+
+th, td { border: 1px solid rgba(34,36,38,.1); }
+
+
+
+
